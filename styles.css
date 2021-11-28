@@ -244,15 +244,13 @@ header {
     width: 679px;
     height: 70px;
     display: flex;
-    /*flex-flow: row nowrap;
-    justify-content: flex-start;*/
+    
 }
 
 .two-wrapper-main-right-attic-list {
     list-style-type: none;
     display: flex;
-    /*flex-flow: row nowrap;
-    justify-content: flex-end;*/
+    
 }
 
 .two-wrapper-main-right-attic-list__item {
@@ -283,6 +281,11 @@ header {
     width: 194px;
     position: absolute;
     margin-top: 23px;
+}
+
+.two-wrapper-main-right-attic-list__item:hover {
+    opacity: 0.7;
+    cursor: pointer;
 }
 
 .two-wrapper-main-left {

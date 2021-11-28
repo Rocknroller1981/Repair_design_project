@@ -207,3 +207,73 @@ header {
     color: #FFFFFF;
     margin: 0px 0px 41px 0px;
 }
+
+.two * {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+.two-wrapper {
+    max-width: 1438px;
+    height: 707px;
+    padding: 107px 134px 414px 134px;
+}
+
+.two-wrapper-main {
+    /*margin: 107px 134px 414px 134px;*/
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.two-wrapper-main-right {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.two-wrapper-main-right-basement {
+    width: 679px;
+    height: 482px;
+    background-image: url(Images/main2.jpg);
+    background-size: cover;
+}
+
+.two-wrapper-main-right-attic {
+    width: 679px;
+    height: 70px;
+    display: flex;
+    /*flex-flow: row nowrap;
+    justify-content: flex-start;*/
+}
+
+.two-wrapper-main-right-attic-list {
+    list-style-type: none;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+}
+
+.two-wrapper-main-left {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 492px;
+    height: 552px;
+}
+
+.two-wrapper-main-left-upper {
+    width: 50%;
+    height: 50%;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: flex-start;
+}
+
+.two-wrapper-main-left-lower {
+    width: 50%;
+    height: 50%;
+    display: flex;
+    flex-flow: column wrap;
+    /*justify-content: flex-start;*/
+}

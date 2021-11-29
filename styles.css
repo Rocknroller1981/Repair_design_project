@@ -218,6 +218,8 @@ header {
     max-width: 1438px;
     height: 1074px;
     padding: 107px 134px 414px 134px;
+    display: flex;
+    flex-direction: column;
 }
 
 .two-wrapper-main {
@@ -244,13 +246,13 @@ header {
     width: 679px;
     height: 70px;
     display: flex;
-    
+
 }
 
 .two-wrapper-main-right-attic-list {
     list-style-type: none;
     display: flex;
-    
+
 }
 
 .two-wrapper-main-right-attic-list__item {
@@ -362,8 +364,9 @@ header {
 .two-wrapper-main-left-lower-fifth {
     display: flex;
     align-items: flex-end;
-    justify-content: center;
-    position: relative;
+    justify-content: flex-start;
+
+
 }
 
 .two-wrapper-main-left-lower-fifth__button {
@@ -388,3 +391,52 @@ header {
     cursor: pointer;
 }
 
+.two-wrapper-main-left-lower-fifth-dots {
+    padding-bottom: 13px;
+    margin-left: 35px;
+    margin-right: 35px;
+}
+
+[class*="arrow"]:hover {
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+.two-wrapper-secondary {
+    padding-top: 92px;
+    align-self: center;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    position: relative;
+}
+
+.two-wrapper-secondary__item {
+    padding-bottom: 13px;
+    font-family: Yeseva One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.two-wrapper-secondary-camera::before {
+    content: "";
+    border-bottom: 1.5px solid #E3B873;
+    width: 32px;
+    position: absolute;
+    left: 25px;
+    bottom: 17px;
+}
+
+.two-wrapper-secondary-camera::after {
+    content: "";
+    border-bottom: 1.5px solid #E3B873;
+    width: 32px;
+    position: absolute;
+    right: 25px;
+    bottom: 17px;
+}

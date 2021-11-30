@@ -1,8 +1,10 @@
 * {
     box-sizing: border-box;
+    max-width: auto;
 }
 
 body {
+    /*max-width: 1438px;*/
     margin: 0 auto;
     padding: 0;
 }
@@ -78,12 +80,13 @@ body {
 header {
     background-color: black;
     padding: 0;
+    /*max-width: 1438px;*/
 
 }
 
 .navigation-wrapper {
     padding: 24px 90px 22px 92px;
-    max-width: 1438px;
+    /*max-width: 1438px;*/
     height: 83px;
     display: flex;
     justify-content: space-around;
@@ -137,8 +140,8 @@ header {
 
 .one-wrapper {
     position: relative;
-    max-width: 1438px;
-    height: 707px;
+    /*max-width: 1438px;*/
+    max-height: 707px;
     background-image: url(Images/main1.jpg);
     background-size: cover;
     display: flex;
@@ -215,8 +218,8 @@ header {
 }
 
 .two-wrapper {
-    max-width: 1438px;
-    height: 1074px;
+    /*max-width: 1438px;*/
+    max-height: 1074px;
     padding: 107px 134px 414px 134px;
     display: flex;
     flex-direction: column;
@@ -365,8 +368,6 @@ header {
     display: flex;
     align-items: flex-end;
     justify-content: flex-start;
-
-
 }
 
 .two-wrapper-main-left-lower-fifth__button {
@@ -448,9 +449,8 @@ header {
 }
 
 .three-wrapper {
-    max-width: 1438px;
-    height: auto;
-    margin: 0;
+    /*max-width: 1438px;*/
+    /*height: auto;*/
     padding: 0px 100px 53px 100px;
     display: flex;
     flex-direction: column;

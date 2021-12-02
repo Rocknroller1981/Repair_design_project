@@ -3,6 +3,7 @@
     max-width: auto;
 }
 
+
 body {
     /*max-width: 1438px;*/
     margin: 0 auto;
@@ -649,7 +650,6 @@ input[type=checkbox] {
     content: "";
     border: none;
     border-radius: 25%;
-    ;
     width: 18px;
     height: 18px;
     background-color: lightgray;
@@ -806,4 +806,144 @@ input[type=checkbox] {
     font-size: 18px;
     line-height: 25px;
     color: #363636;
+}
+
+.four * {
+    margin: 0;
+    padding: 0;
+}
+
+
+.four-wrapper-upper {
+    max-width: 1438px;
+    display: flex;
+}
+
+.four-wrapper-upper-left {
+    width: 800px;
+    height: 598px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    background-image: url(Images/graybuildings.jpg);
+    background-size: cover;
+
+}
+
+
+.four-wrapper-upper-left-fakelist {
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+
+}
+
+[class*="fakelist-box"] {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 100px;
+}
+
+[class*="fakelist-box"] p {
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    color: #363636;
+}
+
+[class*="fakelist-button"] {
+    width: 41px;
+    height: 41px;
+    border: none;
+    border-radius: 50%;
+    background: #E3B873;
+    outline: 5px solid white;
+    position: relative;
+    margin-right: 12px;
+}
+
+
+[class*="fakelist-button"]::before {
+    position: absolute;
+    content: "01";
+    font-family: Yeseva One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    color: white;
+    top: 9px;
+    left: 9px;
+}
+
+[class*="fakelist-button-2"]::before {
+    content: "02";
+}
+
+[class*="fakelist-button-3"]::before {
+    content: "03";
+}
+
+[class*="fakelist-button-4"]::before {
+    content: "04";
+}
+
+.four-wrapper-upper-right {
+    width: 506px;
+    height: 509px;
+    margin: 59px 0px 39px 100px;
+    padding-left: 49px;
+    background-color: black;
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+.four-wrapper-upper-right p {
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 26px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 29px;
+}
+
+.four-wrapper-upper-right-forms div {
+    margin-top: 39px;
+}
+
+.four-wrapper-upper-right-forms span {
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 21px;
+    color: gray;
+}
+
+.four-wrapper-upper-right-checkbox {
+    margin-top: 20px;
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 23px;
+    color: #FFFFFF;
+}
+
+.four-wrapper-upper-right-forms input {
+    background-color: black;
+    color: white;
+}
+
+.four-wrapper-upper-right button {
+    margin-top: 39px;
+    margin-left: 244px;
 }

@@ -133,6 +133,10 @@ header {
     margin-right: 67px;
 }
 
+.navigation-wrapper-bar__item__link:active {
+    color: #E3B873;
+}
+
 .one {
     background-color: black;
     margin: 0;
@@ -817,6 +821,7 @@ input[type=checkbox] {
 }
 
 .four-wrapper {
+    max-width: 1438px;
     display: flex;
     flex-direction: column;
     background-image: url(Images/Frame.jpg);
@@ -824,7 +829,7 @@ input[type=checkbox] {
 }
 
 .four-wrapper-upper {
-    max-width: 1438px;
+    /*max-width: 1438px;*/
     display: flex;
     justify-content: center;
 }
@@ -1208,4 +1213,149 @@ input[value] {
 
 .four-wrapper-lower__pic img {
     border-radius: 50%;
+}
+
+.five {
+    max-width: 1438px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+    background-size: cover;
+    position: relative;
+}
+
+.five::before {
+    content: "";
+    background-image: url(Images/skyscraper.jpg);
+    background-size: cover;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0.2;
+    position: absolute;
+}
+
+.five-wrapper {
+    max-width: 1438px;
+    z-index: 1;
+}
+
+/*.five-wrapper * {
+    background-color: black;
+}*/
+
+.wide {
+    width: 883px;
+    padding-left: 180px;
+    padding-right: 180px;
+    margin-top: -230px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.wide button {
+    margin-top: 52px;
+}
+
+.lastform {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    margin-bottom: 40px;
+}
+
+.lastform div {
+    max-width: 231px;
+    overflow: hidden;
+}
+
+.form-wrapper-forms__question input {
+    width: 516px !important;
+}
+
+.form-wrapper__text__new {
+    font-family: Yeseva One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-top: 34px;
+}
+
+.five-wrapper__text {
+    font-family: Yeseva One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #E3B873;
+}
+
+.five-wrapper-icons {
+    display: flex;
+    flex-flow: row nowrap;
+    margin-top: 28px;
+}
+
+.five-wrapper-icons__btn {
+    width: 28px;
+    height: 28px;
+    background-color: #E3B873;
+    border-radius: 50%;
+    margin-right: 16px;
+    border: none;
+}
+
+.five-wrapper-icons>div:hover {
+    cursor: pointer;
+    background-color: transparent;
+}
+
+.five-wrapper-icons__email {
+    position: relative;
+}
+
+.five-wrapper-icons__email::before {
+    position: absolute;
+    content:"";
+    background-image: url(Images/envelope.svg);
+    background-repeat: no-repeat;
+    background-size: 18px;
+    left: 5px;
+    top: 6px;
+    right: 0;
+    bottom: 0;  
+}
+
+.five-wrapper-icons__insta {
+    position: relative;
+}
+
+.five-wrapper-icons__insta::before {
+    position: absolute;
+    content:"";
+    background-image: url(Images/insta.svg);
+    background-repeat: no-repeat;
+    background-size: 18px;
+    left: 5px;
+    top: 4px;
+    right: 0;
+    bottom: 0;  
+}
+
+.five-wrapper-map {
+    margin: 40px;
+}
+
+.navigation-wrapper {
+    max-width: 1438px;
+    background-color: black;
 }

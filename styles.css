@@ -1107,7 +1107,7 @@ input[value] {
     max-height: 430px;
     margin: 39px 100px 354px 100px;
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     background-color: white;
 }
 
@@ -1154,13 +1154,14 @@ input[value] {
 }
 
 .four-wrapper-lower_basement {
-    min-width: 312px;
+    min-width: 250px;
     max-height: 54px;
     display: flex;
     align-items: center;
     background-color: #E3B873;
-    padding: 17px;
+    padding: 17px 17px 17px 0px;
     margin-bottom: -30px;
+    margin-left: -20px;
 }
 
 .four-wrapper-lower_basement div {
@@ -1185,17 +1186,17 @@ input[value] {
     /*font-size: 20px;*/
     color: white;
     position: absolute;
-    left: 40px;
+    left: 30px;
     top: -5px;
 }
 
 .metres::after {
     content: "";
-    border: 1px solid white;
+    border-left: 2px solid white;
     height: 51px;
     position: absolute;
-    left: 150px;
-    bottom: -15px;
+    left: 122px;
+    bottom: -14px;
 }
 
 .days::before {
@@ -1207,7 +1208,7 @@ input[value] {
     /*font-size: 20px;*/
     color: white;
     position: absolute;
-    left: 30px;
+    left: 10px;
     top: -5px;
 }
 

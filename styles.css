@@ -1507,7 +1507,6 @@ input[value] {
         display: block;
         margin: 0;
         padding: 0;
-        /*height: 2000px;*/
     }
 
     .wrapper-hidden {
@@ -1523,7 +1522,7 @@ input[value] {
     .hidden-buttons {
         display: flex;
         position: absolute;
-        width: 340px;
+        max-width: 340px;
         background-color: transparent;
         justify-content: flex-start;
         margin-left: 14px;
@@ -1575,7 +1574,7 @@ input[value] {
     }
 
     .two-wrapper-main {
-        width: 375px;
+        max-width: 375px;
         height: fit-content;
         display: block;
         margin: 0;
@@ -1590,12 +1589,12 @@ input[value] {
         flex-direction: column;
         align-items: center;
         justify-content: flex-start;
-        width: 375px;
+        max-width: 375px;
         margin: 0;
     }
 
     .two-wrapper-main-left-upper {
-        width: 375px;
+        max-width: 375px;
         display: flex;
         flex-flow: column nowrap;
         align-items: center;
@@ -1679,7 +1678,7 @@ input[value] {
     .three-wrapper-upper-fakevideo {
         background-image: url(Images/process.jpg);
         background-size: cover;
-        width: 340px;
+        max-width: 340px;
         height: 207px;
         margin-top: 40px;
     }
@@ -1708,7 +1707,7 @@ input[value] {
     }
 
     .three-wrapper-upper-text {
-        width: 340px;
+        max-width: 340px;
         height: 106px;
         margin-top: 48px;
         background-color: black;
@@ -1734,7 +1733,7 @@ input[value] {
     }
 
     .three-wrapper-upper-forms {
-        width: 340px;
+        max-width: 340px;
         display: flex;
         flex-direction: column;
         margin-top: 70px;
@@ -1763,10 +1762,10 @@ input[value] {
     .btn_mod {
         background-color: #E3B873;
         box-shadow: 0px 5px 20px rgba(227, 184, 115, 0.1);
-        width: 338px !important;
+        width: 330px !important;
         height: 51px;
         border-radius: 0px;
-       font-family: Nunito Sans;
+        font-family: Nunito Sans;
         font-style: italic;
         font-weight: normal;
         font-size: 11px;
@@ -1778,6 +1777,7 @@ input[value] {
         z-index: 1;
         position: absolute;
         margin-top: 370px;
+        align-self: center;
     }
 
     input[value] {
@@ -1830,9 +1830,9 @@ input[value] {
         display: flex;
         flex-direction: column;
         align-items: center;
-        position: relative;
+        /*position: relative;*/
         background-color: whitesmoke;
-        width: 375px;
+        width: 100%;
         padding-top: 81px;
         padding-bottom: 40px;
     }
@@ -1877,17 +1877,17 @@ input[value] {
     }
 
     .three-wrapper-lower-left-top {
-        width: 340px;
+        max-width: 340px;
         height: 365px;
     }
 
     .three-wrapper-lower-middle-top {
-        width: 340px;
+        max-width: 340px;
         height: 365px;
     }
 
     .three-wrapper-lower-right-top {
-        width: 340px;
+        max-width: 340px;
         height: 365px;
     }
 
@@ -1973,7 +1973,7 @@ input[value] {
     }
 
     .form-wrapper {
-        width: 375px;
+        max-width: 375px;
         height: auto;
         margin: 0px 0px 0px 0px;
         padding-left: 0px;
@@ -1984,7 +1984,7 @@ input[value] {
     }
 
     [class*="form-wrapper-forms"] input {
-        min-width: 340px;
+        min-width: 330px;
     }
 
     .personaldata {
@@ -2039,7 +2039,7 @@ input[value] {
     }
 
     .wide {
-        width: 375px;
+        max-width: 375px;
         max-height: fit-content;
         margin: 0px;
         padding: 0px;
@@ -2052,9 +2052,10 @@ input[value] {
 
     .wide button {
         margin-top: 0px;
-        width: 340px;
+        width: 330px;
         height: 51px !important;
         border-radius: 0;
+        font-style: normal;
     }
 
     .lastform {
@@ -2070,7 +2071,7 @@ input[value] {
     }
 
     .form-wrapper-forms__question input {
-        width: 340px !important;
+        width: 330px !important;
     }
 
     .secret {

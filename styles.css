@@ -1356,6 +1356,11 @@ input[value] {
     background-color: transparent;
 }
 
+.five-wrapper-icons__btn:hover {
+    cursor: pointer;
+    background-color: lightgray;
+}
+
 .five-wrapper-icons__email {
     position: relative;
 }

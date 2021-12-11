@@ -1710,7 +1710,7 @@ input[value] {
 
     .three-wrapper-upper-fakevideo-pseudo::after {
         background-size: 14px;
-        top: 94px;
+        top: 93px;
         left: 165px;
         right: 0;
         bottom: 0;
@@ -1848,8 +1848,8 @@ input[value] {
         /*position: relative;*/
         background-color: whitesmoke;
         width: 100%;
-        padding-top: 81px;
-        padding-bottom: 40px;
+        padding-top: 61px;
+        padding-bottom: 30px;
     }
 
     .three-wrapper-upper-tools * {
@@ -1862,33 +1862,33 @@ input[value] {
 
     .three-wrapper-upper-tools-picture::before {
         left: 125px;
-        bottom: 55px;
+        bottom: 50px;
     }
 
     .three-wrapper-upper-tools-picture::after {
         right: 125px;
-        bottom: 55px;
+        bottom: 50px;
     }
 
     .three-wrapper-lower {
         display: flex;
         flex-direction: column;
-        align-items: flex-start;
         max-width: 375px;
         max-height: fit-content;
         margin-left: 18px;
         margin-right: 18px;
         background-color: whitesmoke;
+        margin-top: 0px;
     }
 
     .three-wrapper-lower>div {
         background-color: white;
         align-items: flex-start;
         margin: 0;
+        margin-bottom: 30px;
         padding: 0;
-        height: 484px;
-        margin-bottom: 40px;
         background-color: whitesmoke;
+        height: fit-content;
     }
 
     .three-wrapper-lower-left-top {
@@ -1961,6 +1961,11 @@ input[value] {
         z-index: 1;
     }
 
+    .third div {
+        margin-top: 100px;
+    }
+
+
     .rt {
         left: 20px;
     }
@@ -1979,6 +1984,7 @@ input[value] {
         text-align: center;
         text-transform: uppercase;
         color: #E3B873;
+        margin-top: 24px;
         margin-bottom: 24px;
         background-color: whitesmoke;
     }
@@ -2049,8 +2055,9 @@ input[value] {
     .five-wrapper {
         max-width: 375px;
         max-height: fit-content;
-        margin-top: -120px;
+        margin-top: -150px;
         display: column;
+        background-color: black;
     }
 
     .wide {
@@ -2285,6 +2292,7 @@ input[value] {
         justify-content: flex-start;
         margin-left: 5px;
         margin-right: 5px;
+        
     }
 
     .small {
@@ -2592,8 +2600,8 @@ input[value] {
         /*position: relative;*/
         background-color: whitesmoke;
         width: 100%;
-        padding-top: 81px;
-        padding-bottom: 40px;
+        padding-top: 60px;
+        padding-bottom: 30px;
     }
 
     .three-wrapper-upper-tools * {
@@ -2605,52 +2613,50 @@ input[value] {
     }
 
     .three-wrapper-upper-tools-picture::before {
-        left: 125px;
-        bottom: 55px;
+        left: 105px;
+        bottom: 50px;
     }
 
     .three-wrapper-upper-tools-picture::after {
-        right: 125px;
-        bottom: 55px;
+        right: 105px;
+        bottom: 50px;
     }
 
     .three-wrapper-lower {
         display: flex;
         flex-direction: column;
-        align-items: flex-start;
         max-width: 320px;
         max-height: fit-content;
-        margin-left: 0px;
-        margin-right: 0px;
+        margin-left: 10px;
+        margin-right: 10px;
         background-color: whitesmoke;
     }
 
     .three-wrapper-lower>div {
         background-color: white;
-        align-items: flex-start;
+       /* align-items: flex-start;*/
         margin: 0;
         padding: 0;
-        height: 484px;
         margin-bottom: 40px;
         background-color: whitesmoke;
     }
 
     .three-wrapper-lower-left-top {
-        max-width: 310px;
+        max-width: 300px;
         height: 355px;
         margin-left: 5px;
         margin-right: 5px;
     }
 
     .three-wrapper-lower-middle-top {
-        max-width: 310px;
+        max-width: 300px;
         height: 355px;
         margin-left: 5px;
         margin-right: 5px;
     }
 
     .three-wrapper-lower-right-top {
-        max-width: 310px;
+        max-width: 300px;
         height: 355px;
         margin-left: 5px;
         margin-right: 5px;
@@ -2696,11 +2702,15 @@ input[value] {
         line-height: 21px;
     }
 
+    .third>img {
+        width: 310px;
+        height: auto;
+    }
 
     .third {
         margin-left: 10px;
         margin-right: 10px;
-        margin-bottom: -0px;
+        margin-bottom: 0px;
         background-color: whitesmoke;
         position: relative;
         z-index: 2;
@@ -2710,12 +2720,18 @@ input[value] {
         z-index: 1;
     }
 
+
+    .third div {
+        margin-top: 95px;
+        margin-left: -15px;
+    }
+
     .rt {
-        left: 10px;
+        left: 13px;
     }
 
     .lt {
-        left: 7px;
+        left: 0px;
     }
 
     .three-wrapper-hidden-text {
@@ -2805,8 +2821,9 @@ input[value] {
     .five-wrapper {
         max-width: 320px;
         max-height: fit-content;
-        margin-top: -120px;
+        margin-top: -150px;
         display: column;
+        background-color: black;
     }
 
     .wide {

@@ -1,12 +1,11 @@
 * {
     box-sizing: border-box;
-    /*max-width: 1438px;*/
+    max-width: 1440px;
+    margin: 0 auto;
 }
 
 
 body {
-    /*max-width: auto;*/
-    margin: 0 auto;
     padding: 0;
 }
 
@@ -81,13 +80,10 @@ body {
 header {
     background-color: black;
     padding: 0;
-    max-width: 1438px;
-
 }
 
 .navigation-wrapper {
     padding: 24px 90px 22px 92px;
-    max-width: 1438px;
     height: 83px;
     display: flex;
     justify-content: space-around;
@@ -105,8 +101,6 @@ header {
 }
 
 .navigation-wrapper-bar-container {
-    max-width: 1438px;
-    box-sizing: border-box;
     padding: 0;
     margin: 0;
     display: flex;
@@ -118,7 +112,6 @@ header {
     list-style-type: none;
     display: flex;
     justify-content: space-around;
-
 }
 
 .navigation-wrapper-bar__item__link {
@@ -153,14 +146,10 @@ header {
 
 .one {
     background-color: black;
-    margin: 0;
-    padding: 0;
-    max-width: 1438px;
 }
 
 .one-wrapper {
     position: relative;
-    max-width: 1438px;
     max-height: 707px;
     background-image: url(Images/main1.jpg);
     background-size: cover;
@@ -180,7 +169,6 @@ header {
     bottom: 0;
     background-color: black;
     background-size: cover;
-    max-width: 1438px;
     opacity: 0.5;
 }
 
@@ -198,8 +186,9 @@ header {
 .one-wrapper-text-buttons {
     margin: 0;
     padding: 0;
-    width: 676px;
+    width: 450px;
     display: flex;
+    justify-content: flex-start;
 }
 
 .calculate {
@@ -240,7 +229,6 @@ header {
 }
 
 .two-wrapper {
-    max-width: 1438px;
     max-height: 1074px;
     padding: 107px 134px 414px 134px;
     display: flex;
@@ -475,8 +463,8 @@ header {
 }
 
 .three-wrapper {
-    max-width: 1438px;
-    /*height: auto;*/
+    /*max-width: 1438px;
+    height: auto;*/
     padding: 0px 100px 53px 100px;
     display: flex;
     flex-direction: column;
@@ -750,7 +738,6 @@ input[type=checkbox] {
 .three-wrapper-lower>div {
     display: flex;
     flex-direction: column;
-    /*max-width: 608px;*/
 }
 
 .three-wrapper-lower-left-top {
@@ -861,7 +848,6 @@ input[type=checkbox] {
 }
 
 .four-wrapper-upper {
-    /*max-width: 1438px;*/
     display: flex;
     justify-content: center;
 }
@@ -877,9 +863,7 @@ input[type=checkbox] {
 
 }
 
-
 .four-wrapper-upper-left-fakelist {
-
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -940,7 +924,6 @@ input[type=checkbox] {
 [class*="fakelist-button-4"]::before {
     content: "04";
 }
-
 
 .form-wrapper {
     width: 506px;
@@ -1243,7 +1226,6 @@ input[value] {
 }
 
 .five {
-    max-width: 1438px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -1265,7 +1247,6 @@ input[value] {
 }
 
 .five-wrapper {
-    max-width: 1438px;
     max-height: 445px;
     z-index: 1;
 }
@@ -1398,7 +1379,6 @@ input[value] {
 }
 
 .navigation-wrapper {
-    max-width: 1438px;
     background-color: black;
 }
 

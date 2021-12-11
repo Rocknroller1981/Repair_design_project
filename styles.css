@@ -2535,7 +2535,7 @@ input[value] {
         border: none;
         z-index: 1;
         /*position: absolute;*/
-        margin-top: 405px;
+        margin-top: 20px;
         align-self: center;
     }
 
@@ -2565,7 +2565,7 @@ input[value] {
     .three-wrapper-upper-forms-checkbox {
         display: block;
         align-items: center;
-        margin-top: 30px;
+        margin-top: 20px;
     }
 
     .three-wrapper-upper-forms-checkbox * {
@@ -2636,25 +2636,30 @@ input[value] {
     }
 
     .three-wrapper-lower-left-top {
-        max-width: 320px;
+        max-width: 310px;
         height: 355px;
+        margin-left: 5px;
+        margin-right: 5px;
     }
 
     .three-wrapper-lower-middle-top {
-        max-width: 320px;
+        max-width: 310px;
         height: 355px;
+        margin-left: 5px;
+        margin-right: 5px;
     }
 
     .three-wrapper-lower-right-top {
-        max-width: 320px;
+        max-width: 310px;
         height: 355px;
+        margin-left: 5px;
+        margin-right: 5px;
     }
 
     .three-wrapper-lower-all-middle {
         width: 270px;
         height: 241px;
-        margin: 0;
-        margin-top: -150px;
+        margin: -150px 0 0 5px;
         padding: 20px;
         flex-direction: column;
         align-items: flex-start;
@@ -2734,7 +2739,7 @@ input[value] {
     .form-wrapper {
         max-width: 320px;
         height: auto;
-        margin: 0px 0px 0px 0px;
+        margin: 0;
         padding-left: 0px;
         background-color: black;
         display: flex;
@@ -2744,6 +2749,13 @@ input[value] {
 
     [class*="form-wrapper-forms"] input {
         min-width: 300px;
+    }
+
+    .form-wrapper-forms-checkbox {
+        padding-left: 5px;
+        align-items: flex-start;
+        margin-top: 12px;
+        margin-bottom: 20px;
     }
 
     .personaldata {

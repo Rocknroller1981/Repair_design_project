@@ -7,6 +7,8 @@
 
 body {
     padding: 0;
+    width: 100%;
+    background-color: black;
 }
 
 .button {
@@ -80,7 +82,7 @@ body {
 header {
     background-color: black;
     padding: 0;
-}
+}    
 
 .navigation-wrapper {
     padding: 24px 90px 22px 92px;

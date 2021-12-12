@@ -843,7 +843,7 @@ input[type=checkbox] {
 }
 
 .four-wrapper {
-    max-width: 1438px;
+    /*max-width: 1438px;*/
     display: flex;
     flex-direction: column;
     background-image: url(Images/Frame.jpg);
